@@ -460,6 +460,18 @@ footer{
 	width: 90%;
 }
 
+.portfolio-image:nth-child(6n+3){
+	display: none;
+}
+
+.portfolio-image:nth-child(6n+5){
+	display: none;
+}
+
+.portfolio-image:nth-child(6n+1){
+	display: none;
+}
+
 .Feature{
 	width: 100%;
 	height: auto;
