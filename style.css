@@ -392,23 +392,23 @@ footer{
 
 @media screen and (max-width: 767px){
 	header{
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
+	width: 100%;
 	height: 50px;
 }
 
 #humberger {
-  position: relative;
+  position: absolute;
   height: 24px;
   width: 24px;
   display: inline-block;
   box-sizing: border-box;
   color: #FAFAFA;
-  margin-top:8px;
+  margin-top:10px;
+  right: 10px;
 }
 #humberger div {
   position: absolute;
+  float: right;
   height: 5px;
   width: 24px;
   background-color: #FAFAFA;
@@ -435,16 +435,12 @@ footer{
 }
 
 .main-visual{
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
+	width: 100%;
 	height: 650px;
 	background-image: url(img/code.png);
 }
 .Portfolio{
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
+	width: 100%;
 }
 
 .portfolio-image{
@@ -465,10 +461,8 @@ footer{
 }
 
 .Feature{
-	width: 90%;
+	width: 100%;
 	height: auto;
-	margin-left: 5%;
-	margin-right: 5%;
 }
 
 .feature-content{
@@ -497,10 +491,8 @@ footer{
 }
 
 .Profile{
-	width: 90%;
+	width: 100%;
 	height: auto;
-	margin-left: 5%;
-	margin-right: 5%;
 }
 
 .profile-content{
@@ -531,9 +523,7 @@ footer{
 }
 
 .Contact{
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
+	width: 100%;
 }
 
 .contact-content{
@@ -557,9 +547,4 @@ footer{
 	text-align: center;
 }
 
-footer{
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
-}
 }
